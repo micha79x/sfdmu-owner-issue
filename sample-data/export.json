@@ -1,7 +1,7 @@
 {
   "objects": [
     {
-      "query": "SELECT Subject, OwnerId FROM Case",
+      "query": "SELECT Subject, Origin, OwnerId FROM Case",
       "operation": "Upsert",
       "externalId": "Subject"
     }
